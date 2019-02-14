@@ -18,7 +18,10 @@ def first_challenge
       if type = :favorite_icecream_flavors
         value.delete_if? do |flavor|
           flavor = "strawberry"
-          
+        end
+      end
+    end
+  end
 
 
   #remember to return your newly altered contacts hash!
