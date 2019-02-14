@@ -17,7 +17,7 @@ def first_challenge
     info.each do |type, value|
       if type = :favorite_icecream_flavors
         value.delete_if do |flavor|
-          flavor = "strawberry"
+          flavor == "strawberry"
         end
       end
     end
